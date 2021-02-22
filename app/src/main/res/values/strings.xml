@@ -4,4 +4,7 @@
     <string name="button_toast">Toast!</string>
     <string name="count_button">Count!</string>
     <string name="toast_message">Hello Toast!</string>
+    <string name="task_text_msg">Listo para trabajar</string>
+    <string name="button_start_task">A trabajar!</string>
+    <string name="task_working_msg">Trabajando ...</string>
 </resources>
