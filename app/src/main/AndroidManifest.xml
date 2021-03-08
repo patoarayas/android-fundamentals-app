@@ -9,11 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App">
+
+        <activity
+            android:name=".words.NewWordActivity"
+            android:label="New words"
+            android:parentActivityName=".words.WordActivity" />
+
+        <activity
+            android:name=".words.WordActivity"
+            android:label="WordsActivity"
+            android:parentActivityName=".MainActivity" />
+
         <activity
             android:name=".task.TaskActivity"
             android:label="Task Activity"
-            android:parentActivityName=".MainActivity"
-            />
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

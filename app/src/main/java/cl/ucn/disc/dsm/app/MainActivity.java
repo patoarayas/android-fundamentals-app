@@ -9,6 +9,7 @@ import android.view.View;
 
 import cl.ucn.disc.dsm.app.counter.CounterActivity;
 import cl.ucn.disc.dsm.app.task.TaskActivity;
+import cl.ucn.disc.dsm.app.words.WordActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -69,6 +70,11 @@ public class MainActivity extends AppCompatActivity {
 
   public void launchTaskActivity(View view) {
     Intent intent = new Intent(this, TaskActivity.class);
+    startActivity(intent);
+  }
+
+  public void launchWordsActivity(View view) {
+    Intent intent = new Intent(this, WordActivity.class);
     startActivity(intent);
   }
 }
